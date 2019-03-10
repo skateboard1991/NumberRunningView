@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberRunningView">
+        <attr name="min" format="integer"/>
+        <attr name="max" format="integer"/>
+        <attr name="speedOffset" format="float"/>
+        <attr name="maxSpeed" format="float"/>
+        <attr name="numberColor" format="color"/>
+        <attr name="numberSize" format="dimension"/>
+    </declare-styleable>
+</resources>
