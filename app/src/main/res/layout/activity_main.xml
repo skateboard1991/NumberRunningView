@@ -17,67 +17,81 @@
             android:layout_height="wrap_content">
 
         <TextView
+                android:gravity="center"
+                android:background="@drawable/red_bg"
                 android:layout_marginLeft="10dp"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="15dp"
                 android:id="@+id/firstNumTV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
 
         <TextView
+                android:gravity="center"
+                android:background="@drawable/red_bg"
                 android:layout_marginLeft="10dp"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="15dp"
                 android:id="@+id/secondNumTV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
 
         <TextView
+                android:gravity="center"
+                android:background="@drawable/red_bg"
                 android:layout_marginLeft="10dp"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="15dp"
                 android:id="@+id/thirdNumTV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
 
         <TextView
+                android:gravity="center"
+                android:background="@drawable/red_bg"
                 android:layout_marginLeft="10dp"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="15dp"
                 android:id="@+id/fourthNumTV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
 
         <TextView
+                android:gravity="center"
+                android:background="@drawable/red_bg"
                 android:layout_marginLeft="10dp"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="15dp"
                 android:id="@+id/fifthNumTV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
 
         <TextView
+                android:gravity="center"
+                android:background="@drawable/red_bg"
                 android:layout_marginLeft="10dp"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="15dp"
                 android:id="@+id/sixthNumTV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
 
         <TextView
+                android:gravity="center"
+                android:background="@drawable/blue_bg"
                 android:layout_marginLeft="10dp"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="15dp"
                 android:id="@+id/seventhNumTV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
 
 
     </LinearLayout>
 
     <com.skateboard.numberrunningview.NumberRunningView
-            app:speedOffset="0.1"
-            app:maxSpeed="30"
+            app:speedOffset="1"
+            app:maxSpeed="70"
             app:numberColor="@android:color/black"
             app:numberSize="20sp"
             android:layout_gravity="center"
