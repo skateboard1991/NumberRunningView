@@ -91,7 +91,7 @@
 
     <com.skateboard.numberrunningview.NumberRunningView
             app:speedOffset="1"
-            app:maxSpeed="70"
+            app:maxSpeed="60"
             app:numberColor="@android:color/black"
             app:numberSize="20sp"
             android:layout_gravity="center"
